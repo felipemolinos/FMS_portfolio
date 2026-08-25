@@ -14,4 +14,4 @@ and automated documentation.
 - `tests/` — custom data quality tests
 
 ## Stack
-dbt-core, [your warehouse: BigQuery/Redshift/DuckDB], SQL
+dbt-core, BigQuery, SQL
