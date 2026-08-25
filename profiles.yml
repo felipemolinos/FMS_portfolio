@@ -1,0 +1,83 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: dbt-cloud-service-account@dbt-project-fms.iam.gserviceaccount.com
+        client_id: '115935969254976398286'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/dbt-cloud-service-account%40dbt-project-fms.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQClSgBqxU82M/3v
+
+          1RTtFuM+m0yBJO0lgVCtvw/u0AtZcJEN51K9RyUMYbzPc3s/PUyDs/ladxVAwkl8
+
+          2GUbb0r2tOk/g404LXGdTfnlQnIZ432WUHZUGvkcfT+SnI/FC+rJm0jkgGIYglOi
+
+          9/mIFBLqiWMkcttz0euURI/ZZmHZo5oRzXJRKc+oNOE0LYaqTtrABDwe2suNh3oK
+
+          XlvO6Y4atDTUfn3YOCj7q4PZuigd8mnY4uMruKCP3XlyCi+DcE5/OoLpEcLmbnjv
+
+          MufoUqZoMmdLIndsFRKzgias8um5ibtJb259bWUa2ncWM/h8xpa018EMuZs1mgMb
+
+          W5FUc75bAgMBAAECggEAA6q2HEHfUktp+6syL4y3It+5tt278xdabYuHdEIiSYXE
+
+          egn8agPziVt7uSB0Bs2hCATzAbPfNIeuFXpzF8Sd/zlS0vYwqLywjUK6SgDYD8Uq
+
+          6pRDY8J4OoHe0K2JFPm0NJ/HLxm+bPiRl9QN5M88ZWUB3loIwbOE/4Eorc2zJ9Hy
+
+          F3rdR+hnGjwpJAcZ3hpNcX3TtUz/ve4ELqBRk7hi1cScMxfvGzn5c+/46AHEcnGf
+
+          vshDpxDhLTZkY6LuDAFeAWChMkf2N7NdIPMhkyQReLdGh8mO1VjcXgeAxoJZUWAi
+
+          Aw+BjCEy24TgG2GPBNQi4Bb+UyFjEtqDzywHAOF2oQKBgQDUVg5ynuZdS786mUmv
+
+          3R45aJgzRNc9OPc1F3u21R7u8ptygdTDDphIFVnQGkjPW5rkqCnSO7kHigIWvGvQ
+
+          nkMtVlg8sODXuR8G/7Iofely3nG0pnKuprVci4/o5P8PTt3JKS11ZWldZpaYZsuu
+
+          q6xUaniQM20mZv8uqPOpFVA24QKBgQDHR0KxzeSb9jes8iWfaBvYS+lm+mS1WBwt
+
+          zfqts86S39yLynXtb0O9jwhko7uSXrRQvExidNN7kP/Z38S0sSAHBZd2mpdF6qsE
+
+          pDgO7/5s47hp+37HL3ZDvgFZFrC+u5+a3OMVRxLFJLzvxb15lssccl1bZxeh0rWe
+
+          LpL68diouwKBgQCcu3ToqF/UZ9Acuf9JP8dKiukllt/lwgG/f7kC6Odva0bQzAK3
+
+          hDNlqdTkpjIuVSjNNU/BbfITHYyTKbvPfrKJaZ2yFsGwmmXLrbvc5awG7SkzNlWa
+
+          k1V1nVK5jyayLv3IuYtjh1qx5cKtddtM8E1A9mJN1pfv68DauT06BpByIQKBgQCt
+
+          GRIu3ljIvJvqB0B08frV7EKmp7OY7hs0EmrAPaKfZALwDoJXJ0HhQ4AX4z2IS+k3
+
+          BAkZsL8O44nKWBxGlGDsmIfThz8FhWzeEEN9fiwzq67BqKqcHHcPKtmC6DnIw7NE
+
+          0sAR+HWud1YCtHH8TubJI/JB9g/KCfymlXAouLDpBwKBgCJf6++mKSiIHcgxTp/m
+
+          eGi/NU6XMjCo1qOPXEisL4KS9+a3L1mYHCpsfzG+EIUXo8v03yFQv3Cz9y4YH/sR
+
+          RTFAemg8sdgkFKgfZpFi94jZ41cFK1TQRcrrHjKaoFd0xQLKUsgyMhSUd1/HoN++
+
+          JGkMoRRo/dPIrCm6QXF3keB6
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: 30b56c31d3d5b14c801b8ecc5c87f3dd812b4af4
+        project_id: dbt-project-fms
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: dbt-project-fms
+      retries: 1
+      schema: dbt_fmolinossouza
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default
