@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: dbt-project-fms
+    schema: olist_raw
+    tables:
+      - name: orders
+        identifier: olist_orders
+      - name: customers
+        identifier: olist_customers
+      - name: order_payments
+        identifier: olist_order_payments
+      - name: order_items
+        identifier: olist_order_items
+      - name: products
+        identifier: olist_products
+      - name: sellers
+        identifier: olist_sellers
+      - name: order_reviews
+        identifier: olist_order_reviews
+      - name: geolocation
+        identifier: olist_geolocation
+      - name: product_category_name_translation
+        identifier: product_category_translation
